@@ -14398,3 +14398,18 @@ query: INSERT INTO watchdog
     (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
     VALUES
     (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:114:\&quot;MySQL server has gone away\nquery: DELETE FROM semaphore WHERE value = &amp;#039;142768461565115d5a9c3f7.47709024&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:41:\&quot;/home/tiram/public_html/includes/lock.inc\&quot;;s:5:\&quot;%line\&quot;;i:224;}&#039;, 3, &#039;&#039;, &#039;http://heshbonaim.co.il/comment/reply/32&#039;, &#039;http://heshbonaim.co.il/post/32/%D7%91%D7%A7%D7%A8%D7%95%D7%91-%D7%A1%D7%A4%D7%A8-%D7%94%D7%A0%D7%94%D7%9C%D7%AA-%D7%97%D7%A9%D7%91%D7%95%D7%A0%D7%95%D7%AA-%D7%9C%D7%99%D7%95%D7%A2%D7%A6%D7%99-%D7%9E%D7%A1&#039;, &#039;91.207.7.14&#039;, 1448154585) in /home/tiram/public_html/includes/database.mysqli.inc on line 134
+[30-Nov-2015 07:02:37 America/Detroit] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (1, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:224:\&quot;MySQL server has gone away\nquery: UPDATE sessions SET uid = 1, cache = 1448884787, hostname = &amp;#039;212.76.116.44&amp;#039;, session = &amp;#039;&amp;#039;, timestamp = 1448884957 WHERE sid = &amp;#039;8956495f44ae402c8fcd92d3265ee340&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:44:\&quot;/home/tiram/public_html/includes/session.inc\&quot;;s:5:\&quot;%line\&quot;;i:106;}&#039;, 3, &#039;&#039;, &#039;http://heshbonaim.co.il/admin/content/backup_migrate&#039;, &#039;http://heshbonaim.co.il/admin/content/backup_migrate&#039;, &#039;212.76.116.44&#039;, 1448884957) in /home/tiram/public_html/includes/database.mysqli.inc on line 134
+[30-Nov-2015 07:02:37 America/Detroit] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (1, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:84:\&quot;MySQL server has gone away\nquery: UPDATE users SET access = 1448884957 WHERE uid = 1\&quot;;s:5:\&quot;%file\&quot;;s:44:\&quot;/home/tiram/public_html/includes/session.inc\&quot;;s:5:\&quot;%line\&quot;;i:111;}&#039;, 3, &#039;&#039;, &#039;http://heshbonaim.co.il/admin/content/backup_migrate&#039;, &#039;http://heshbonaim.co.il/admin/content/backup_migrate&#039;, &#039;212.76.116.44&#039;, 1448884957) in /home/tiram/public_html/includes/database.mysqli.inc on line 134
+[30-Nov-2015 07:17:38 America/Detroit] PHP Parse error:  syntax error, unexpected ''node_type_fo' (T_ENCAPSED_AND_WHITESPACE) in /home/tiram/public_html/modules/comment/comment.module on line 489
+[30-Nov-2015 07:17:50 America/Detroit] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/tiram/public_html/modules/filter/filter.module on line 775
+[30-Nov-2015 07:18:15 America/Detroit] PHP Warning:  Unterminated comment starting line 2280 in /home/tiram/public_html/modules/node/node.module on line 2280
+[30-Nov-2015 07:19:07 America/Detroit] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/tiram/public_html/modules/system/system.module on line 1114
+[30-Nov-2015 07:19:12 America/Detroit] PHP Warning:  Unterminated comment starting line 986 in /home/tiram/public_html/modules/taxonomy/taxonomy.module on line 986
