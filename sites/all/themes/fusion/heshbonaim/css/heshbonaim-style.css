@@ -1,0 +1,1223 @@
+
+/* $Id: fusion-starter-style.css,v 1.1.2.7 2010/07/04 01:51:31 sociotech Exp $ */
+
+/* Basic Typography & Colors
+-------------------------------------------------------------- */
+/* Add general site styling here for typography and background */
+body {
+  font-size: 75%;   /* also set in fusion_starter.info: settings[base-font-size] = font-size-12 */
+}
+
+/* Default link styles - separate a:visited for a different visited link style */
+a,
+a:link,
+a:visited {
+}
+
+/* Hover/active link styles. Don't forget :focus for accessibility */
+a:hover,
+a:focus,
+a:active {
+}
+
+
+/* Specific Typography
+-------------------------------------------------------------- */
+#site-name {
+  font-size: 300%;
+  line-height: 150%;
+}
+
+.footer-message {
+  font-size: 90%;
+}
+
+
+/* HTML Elements
+-------------------------------------------------------------- */
+body {
+}
+
+/* Site Info
+-------------------------------------------------------------- */
+/* Wrapper around logo, site name, and slogan */
+.header-site-info span {
+  display: block;
+}
+
+/* Add float here to put logo and site name side by side, also add margins as
+  needed */
+#logo {
+}
+
+/* Link and hover styles for site name */
+#site-name a:link,
+#site-name a:visited,
+#site-name a:hover,
+#site-name a:active {
+}
+
+/* Typography for site slogan */
+#slogan {
+}
+
+
+/* Regions
+
+  Classes (.region-name) should always be used instead of IDs (#region-name) so
+  that Skinr styles can override them with a class later
+-------------------------------------------------------------- */
+
+/* All Regions
+-------------------------------------------------------------- */
+/* By default this wrapper is set to 100% width and centered -- override here to
+  narrow wrapper or align left or right */
+.page {
+}
+
+/* The 0 values here remove padding and spacing at the bottom of the page.
+  Remove to add a gap at the very bottom of the page */
+.page-inner {
+  border: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
+/* Header Regions
+-------------------------------------------------------------- */
+/* Header Top region to the bottom of Header region */
+/* For full-width header background, add background image/color here */
+.header-group-wrapper {
+}
+
+.header-group {
+}
+
+/* Header Top region which sits above the header */
+/* Works well with inline login or inline menu block style */
+.header-top-wrapper {
+}
+
+.header-top {
+}
+
+
+/* Primary Menu
+/-------------------------------------------------------------- */
+/* Add general styles for primary menu here, such as typography, borders, floats,
+  or spacing above/below */
+.primary-menu {
+}
+
+/* styles for Superfish primary menu */
+.primary-menu-inner ul.sf-menu {
+}
+
+/* Link style for top level menu items, add padding here */
+.primary-menu-inner ul.sf-menu a,
+.primary-menu-inner ul.sf-menu a:visited  {
+}
+
+.primary-menu-inner ul.sf-menu a:hover,
+.primary-menu-inner ul.sf-menu a:active,
+.primary-menu-inner ul.sf-menu a:focus {
+}
+
+/* These are the top level menu items, add border-right here for separators */
+.primary-menu-inner ul.sf-menu li {
+}
+
+/* Add border-right: 0; here to remove separator on last menu item */
+.primary-menu-inner ul.sf-menu li.last {
+}
+
+/* Style for container of dropdown, add background or border */
+.primary-menu-inner ul.sf-menu ul {
+}
+
+/* Style for individual dropdown menu items, add border-bottom for separators */
+.primary-menu-inner ul.sf-menu li li {
+  background-color: #fff;
+}
+
+.primary-menu-inner ul.sf-menu li li.last {
+
+}
+
+.primary-menu-inner ul.sf-menu li li li {
+}
+
+/* Style for hover of dropdown menu items (add background-color here) */
+.primary-menu-inner ul.sf-menu li ul li:hover,
+.primary-menu-inner ul.sf-menu li ul li.sfHover {
+}
+
+
+/* Secondary menu
+-------------------------------------------------------------- */
+/* This menu usually appears in the header as a set of simple text links */
+.secondary-menu {
+}
+
+/* Set general style for menu here -- background, alignment, etc. */
+.secondary-menu-inner ul.links {
+}
+
+/* Add a border-right here for a separator */
+.secondary-menu-inner ul.links li {
+}
+
+/* Add border-right: 0; here to remove right separator on last menu item */
+.secondary-menu-inner ul.links li.last {
+}
+
+/* Styles for links */
+.secondary-menu-inner ul.links li a:link,
+.secondary-menu-inner ul.links li a:visited {
+  padding: 3px;
+}
+
+.secondary-menu-inner ul.links li a:hover,
+.secondary-menu-inner ul.links li a:focus,
+.secondary-menu-inner ul.links li a.active {
+}
+
+
+/* Header - Search
+-------------------------------------------------------------- */
+.search-box {
+}
+
+.search-box-inner {
+}
+
+.search-box-inner form#search-theme-form {
+}
+
+.search-box-inner input#edit-search-theme-form-header {
+}
+
+
+/*  Preface Regions
+-------------------------------------------------------------- */
+/* The Preface Top region sits between the header and the Main Area
+ (columns, sidebars, and main content).  The Preface Bottom region
+ is inside the Main Area. */
+.preface-top-wrapper {
+}
+
+.preface-top {
+}
+
+.preface-top-inner {
+}
+
+.preface-bottom {
+}
+
+.preface-bottom-inner {
+}
+
+
+/*  Main Area (content + sidebars + preface bottom + postscript top)
+-------------------------------------------------------------- */
+.main-wrapper {
+}
+
+
+/* Sidebar Regions
+-------------------------------------------------------------- */
+/* Sidebar widths can be controlled through theme settings */
+.sidebar-first {
+}
+
+.sidebar-last {
+}
+
+
+/* Content Regions
+-------------------------------------------------------------- */
+.content-top {
+}
+
+.content {
+}
+
+.content-inner {
+}
+
+.content-bottom {
+}
+
+/* This region only appears on full node pages. It's useful for ads or other
+  content between the body of the node and its comments */
+.node-bottom {
+}
+
+/*  Postscript & Footer Regions
+-------------------------------------------------------------- */
+.postscript-top {
+}
+
+.postscript-top-inner {
+}
+
+.postscript-bottom-wrapper {
+}
+
+.postscript-bottom {
+}
+
+.postscript-bottom-inner {
+}
+
+.footer-wrapper {
+}
+
+.footer {
+}
+
+.footer-inner {
+}
+
+.footer-message-wrapper {
+}
+
+.footer-message {
+}
+
+.footer-message-inner {
+}
+
+.footer-message-text {
+}
+
+
+/* Page titles
+/-------------------------------------------------------------- */
+/* Page and full node titles */
+h1.title {
+}
+
+
+/* Default node styles
+/-------------------------------------------------------------- */
+/* Change unpublished and preview colors for dark background themes */
+.node-unpublished {
+  background-color: #fff4f4;
+}
+.preview .node {
+  background-color: #ffffea;
+}
+
+/* Typography for node titles */
+h2.title {
+}
+
+/* Colors and styles for linked node titles, ie. teaser listing at /node */
+h2.title a:link,
+h2.title a:visited {
+}
+
+h2.title a:hover,
+h2.title a:focus,
+h2.title a:active {
+}
+
+/* Separators and padding for node teasers */
+.teaser {
+}
+
+/* Author/date info */
+.meta {
+}
+
+.submitted {
+}
+
+/* Links for nodes (taxonomy, commenting, read more, etc) */
+.node ul.links li {
+}
+.node ul.links a {
+}
+
+/* Only more/read more links */
+div.node .read-more a,
+div.node .more-link a {
+}
+
+/* Drupal Messages
+/-------------------------------------------------------------- */
+/* General style for all errors/messages (border, padding, etc.) */
+div.content-messages div.messages,
+div.content-help div.help {
+}
+
+/* Status messages: green */
+div.content-messages-inner div.status {
+}
+
+/* Warning messages: yellow */
+div.content-messages-inner div.warning {
+}
+
+/* Error messages: red */
+div.content-messages-inner div.error {
+}
+
+/* Help messages: blue */
+div.content-help-inner div.help {
+}
+
+/* Error that appears when a required form field is not filled out */
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 1px solid #aa1144;
+}
+
+/* "New" text and required form field asterisk (default = red) */
+.marker,
+.form-required {
+  color: #aa1144;
+}
+
+
+/* Default block title styles
+/-------------------------------------------------------------- */
+h2.block-title {
+}
+
+
+/* Breadcrumbs
+-------------------------------------------------------------- */
+.breadcrumbs {
+}
+
+.breadcrumbs a:link,
+.breadcrumbs a:visited {
+}
+
+
+/* Tab Menus
+/-------------------------------------------------------------- */
+#content-tabs {
+  background-color: transparent;
+  float: left; /* LTR */
+  margin: 20px 0;
+  padding: 0;
+}
+
+#content-tabs ul.primary,
+#content-tabs ul.secondary {
+  border-bottom: 1px solid #000;
+  clear: both;
+  float: left; /* LTR */
+  margin: 0;
+  padding: 0 10px;
+}
+
+#content-tabs ul.secondary {
+  border-bottom: 1px solid #555;
+  margin-top: 10px;
+  text-transform: lowercase;
+}
+
+#content-tabs ul.primary li,
+#content-tabs ul.secondary li {
+  border-style: none;
+  display: inline;
+  float: left; /* LTR */
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+#content-tabs ul.primary li a:link,
+#content-tabs ul.primary li a:visited,
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  float: left; /* LTR */
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 6px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {
+  color: #555;
+}
+
+#content-tabs ul.primary li a.active:link,
+#content-tabs ul.primary li a.active:visited {
+  border-bottom: 4px solid #000;
+  color: #555;
+  padding-bottom: 2px;
+}
+
+#content-tabs ul.secondary li a.active:link,
+#content-tabs ul.secondary li a.active:visited {
+  border-bottom: 4px solid #555;
+  color: #777;
+  padding-bottom: 2px;
+}
+
+#content-tabs ul.primary li a:hover,
+#content-tabs ul.primary li a:focus,
+#content-tabs ul.secondary li a:hover,
+#content-tabs ul.secondary li a:focus {
+  border-bottom: 4px solid #777;
+  color: #777;
+  padding-bottom: 2px;
+}
+
+/* Pagers
+-------------------------------------------------------------- */
+ul.pager {
+}
+
+ul.pager li {
+}
+
+ul.pager a,
+ul.pager li.pager-current {
+  border-color: #333;
+}
+
+ul.pager li.pager-current {
+  background-color: #777;
+  color: #fff;
+}
+
+ul.pager a:hover,
+ul.pager a:active,
+ul.pager a:focus {
+  background-color: #777;
+  border-color: #333;
+  color: #fff;
+}
+
+/* Forms
+/-------------------------------------------------------------- */
+/* Typography and backgrounds for all form buttons */
+form input.form-submit {
+  margin: 2px;
+  padding: 3px 5px;
+}
+
+/* Hover style for form buttons */
+form input.form-submit:hover,
+form input.form-submit.hover,
+form input.form-submit:focus {
+}
+
+/* Typography, background, borders, padding for form fields */
+.form-item input,
+.form-item select,
+.form-item textarea {
+}
+
+/* Remove backgrounds and border on radios and checkboxes */
+.form-item .form-radio,
+.form-item .form-checkbox {
+  background: none;
+  border: none !important;
+}
+
+/* Fieldset wrapper around groups of form elements -- add border here */
+fieldset {
+}
+
+/* Typography and spacing for legend of fieldsets */
+fieldset legend {
+}
+
+/* Link style for legend of fieldsets */
+fieldset legend,
+legend.collapse-processed,
+legend.collapse-processed a:link,
+legend.collapse-processed a:visited {
+}
+
+/* Custom icons on (open) collapsible fieldsets */
+html.js fieldset.collapsible legend a:link,
+html.js fieldset.collapsible legend a:visited {
+}
+
+/* Custom icons on (closed) collapsible fieldsets */
+html.js fieldset.collapsed legend a:link,
+html.js fieldset.collapsed legend a:visited {
+}
+
+
+/* Tables
+-------------------------------------------------------------- */
+table {
+}
+
+/* Body of tables */
+tbody {
+  border-top: 1px solid #ccc;
+}
+
+/* Header of tables */
+thead th,
+th {
+  border-bottom: 3px solid #ccc;
+}
+
+tbody th {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Alternating row background styles */
+tr.even,
+tr.even td {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.odd,
+tr.odd td {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+td.active {
+}
+
+tr.drag td,
+tr.drag-previous td {
+  color: #000;
+}
+
+
+/* Maintenance Page
+/-------------------------------------------------------------- */
+/* Maintenance page tpl file in Fusion Core has simplified layout, but you can
+  also add specific styles, such as a background, just for your offline page */
+.in-maintenance  {
+}
+
+
+/*--------------------------------------------------------------*/
+/* Module styles
+/-------------------------------------------------------------- */
+
+
+/* Book
+/-------------------------------------------------------------- */
+.book-navigation .menu {
+  border-top: 1px solid #ccc;
+}
+
+.book-navigation .page-links {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* Comments
+/-------------------------------------------------------------- */
+/* Style for each individual comment */
+div.comment {
+}
+
+/* Subject (title) of each comment */
+div.comment h3.title {
+}
+
+/* Links (edit, reply, delete) for each comment */
+div.comment div.links a,
+div.comment ul.links a {
+}
+
+/* Alternating styles for even/odd comments */
+.comments div.odd {
+  background-color: #fff;
+}
+
+.comments div.even {
+  background-color: #eee;
+}
+
+/* A special highlight style for a comment by the author of the node */
+.comments div.comment-by-author {
+  background-color: #ddd;
+}
+
+/* Comment signatures */
+.signature {
+  border-top: 1px solid #d6ddb9;
+}
+
+/* User avatars in comments */
+.comment-wrapper .picture img {
+}
+
+
+/* Forum
+/-------------------------------------------------------------- */
+#forum .description {
+}
+
+.forum-topic-navigation {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+
+/* Poll
+/-------------------------------------------------------------- */
+div.poll div.bar {
+  background-color: #ddd;
+}
+
+div.poll div.bar div.foreground {
+  background-color: #999;
+}
+
+
+/* Profiles
+/-------------------------------------------------------------- */
+.profile .picture {
+  float: none;
+}
+
+/* Styles for sub-headings on user profiles */
+.profile dt {
+  background-color: #ccc;
+}
+
+
+/* Ubercart - catalog
+/-------------------------------------------------------------- */
+
+/* Horizontal list of subcategories in catalog */
+ul.uc-categories {
+}
+
+.uc-categories li a {
+  font-weight: bold;
+  padding: 0 5px 0 3px;
+}
+
+/* Product and category names */
+.catalog-grid-title a:link,
+.catalog-grid-title a:visited,
+.category a:link,
+.category a:visited {
+}
+
+.catalog-grid-title a:hover,
+.catalog-grid-title a:focus,
+.category a:hover,
+.category a:focus {
+}
+
+/* Sell price in Ubercart catalog */
+.category-grid-products .catalog-grid-sell-price {
+}
+
+/* Ubercart - add to cart buttons
+/-------------------------------------------------------------- */
+
+/* Add to cart buttons */
+input.node-add-to-cart,
+input.list-add-to-cart {
+}
+
+/* Hover and focus styles, with .hover class added for IE6 support */
+input.node-add-to-cart:hover,
+input.node-add-to-cart.hover,
+input.node-add-to-cart:focus,
+input.list-add-to-cart:hover,
+input.list-add-to-cart.hover,
+input.list-add-to-cart:focus {
+}
+
+/* Ubercart - product nodes
+/-------------------------------------------------------------- */
+
+#field-group {
+}
+
+#price-group {
+}
+
+/* Product images */
+.product-image a img {
+}
+
+.product-image a:hover img,
+.product-image a:focus img {
+}
+
+/* Display price on full product nodes */
+.full-node .product-group .uc-price-display {
+}
+
+/* Product attributes on full nodes */
+.full-node .product-group .attributes {
+}
+
+/* Ubercart - general / checkout
+/-------------------------------------------------------------- */
+
+/* For optional "Powered by Ubercart" footer message */
+#store-footer {
+}
+
+#store-footer a:link,
+#store-footer a:visited {
+}
+
+/* View cart/Checkout links in Ubercart cart block */
+.cart-block-summary-links ul.links li a {
+}
+
+.cart-block-summary-links ul.links li.cart-block-checkout a:link,
+.cart-block-summary-links ul.links li.cart-block-checkout a:visited {
+}
+
+/* Key checkout process buttons: Checkout, Continue, and Submit Order */
+#uc-cart-view-form #edit-checkout,
+#uc-cart-checkout-form #edit-continue,
+#uc-cart-checkout-review-form #edit-submit {
+}
+
+/* Table on final order review page */
+.order-review-table {
+}
+
+#cart-form-products table th {
+  border-bottom: 3px solid #dec2c3;
+}
+
+
+/* Skinr
+/-------------------------------------------------------------- */
+
+/* This is a sample Skinr style to get you started. See fusion_starter.info */
+.fusion-example-stylename .inner {
+  /* When setting the background color, also set foreground colors for text and
+    links, even if it's similar to the default body style. Remember, this block
+    style may be used in regions with other foreground colors, thus making text
+    invisible if left unspecified */
+  background-color: #ccc;
+  color: #000;
+  /* All padding and borders should go on the .inner div, so as not to break
+    the widths of the grid */
+  border: 3px solid #000;
+  padding: 10px;
+}
+
+
+/* My theme start here */
+
+body {background:url("../images/bg.jpg") repeat-x scroll 0 0;}
+.page {margin-top: 30px;}
+
+a {color:#F29C59;}
+
+#header-group-inner {background-color:#fff;}
+#header-group_up {background:url("../images/main_up.png") no-repeat scroll 0 0;
+height: 46px;
+width: 960px;}
+.facebook {background:url("../images/fb.png") no-repeat scroll 0 0;
+	float: left;
+    font-size: 10px;
+    font-weight: bold;
+    left: 218px;
+    position: relative;
+    top: 20px;
+    width: 63px;}
+.facebook a {color:#fff;}
+#main {background-color:#fff;}
+#header-site-info {margin-right: -10px;
+    width: 960px;}
+#header-site-info-inner {bottom: 9px;
+    float: right;
+    position: relative;
+    right: 80px;
+    width: 250px;}
+.strip {background:url("../images/strip.png") no-repeat scroll 0 0;
+ 	 height: 187px;
+    margin-right: 64px;
+    margin-top: 55px;
+    width: 851px;}
+
+#sidebar-first.nested, #sidebar-last.nested, div.superfish {
+    margin-right: 44px;
+    overflow: visible;
+    width: 200px;}
+#main-group {width: 658px;}
+.content-inner {width: 658px;}
+
+#bottom_bg {background:url("../images/bottom_bg.png") no-repeat scroll 0 0;
+height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;}
+#home_content-inner { margin-bottom:0;}
+
+
+
+
+
+
+/* Primary Menu
+/-------------------------------------------------------------- */
+/* Add general styles for primary menu here, such as typography, borders, floats,
+  or spacing above/below */
+.primary-menu {float: left;
+    margin-top: 30px;
+    text-align: left;
+    width: 525px;
+}
+
+.primary-menu ul li {font-size:16px;}
+.primary-menu ul li a {border-left: 2px solid #F27A21;
+    color: #818386;
+    height: 12px;
+    line-height: 0.6;
+    padding: 0 1em;}
+.primary-menu ul li.last a {border:none;}
+h1.title {border-bottom: 3px inset #F27A21;
+    color: #818386;
+    padding-bottom: 8px;}
+h2.title {color:#F29C59;}
+
+.meta {display:none;}
+
+/* Theme of product page */
+#pruduct_side {float: left;
+    margin-left: -8px;
+    padding-right: 30px;
+    width: 260px;}
+#product_links {height:14px;}
+#product_links2 {margin-right: 2px;
+    margin-top: 20px;
+    width: 246px;}
+#product_index {font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    right: 2px;
+    top: 10px;}
+#product_links .link_title {color:#777777;
+    float: right;
+    font-weight: bold;
+    width: 54px;}
+#product_links .terms {position: relative;
+    top: 2px;
+    width: 250px;}
+#buy {border-bottom: 2px solid #EAE9E9;
+    border-top: 2px solid #EAE9E9;
+    margin-top: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 320px;}
+#product_text {width:320px;}
+#price {font-weight:bold;
+font-size:18px;}
+#product-group {padding-bottom:15px;
+border-bottom:3px solid #EC7825;}
+
+
+#sidebar-first h2.block-title  {background: url("../images/block_title_main.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 17px;
+    height: 24px;
+    text-align: center;
+    width: 180px;}
+
+#block-views-more_product-block_1 {}
+#block-views-more_product-block_1 .views-field-title {font-size:14px;
+font-weight:bold;
+margin-bottom:5px;
+width:173px;}
+#block-views-more_product-block_1 form input.form-submit {
+    margin: 2px;
+    padding: 0 3px;}
+
+#block-views-relevent_product-block_1 {border-left: 2px solid #EAE9E9;
+    padding-left: 10px;
+    width: 395px;
+	height:138px;
+	float:right;}
+#block-views-relevent_product-block_1 .views-field-field-image-cache-fid { float:right;
+width:90px;}
+#block-views-relevent_product-block_1 .views-field-title {font-size:16px;
+font-weight:bold;}
+#block-views-relevent_product-block_1 .views-field-field-teaser-value {height: 59px;
+    margin-top: 5px;}
+#block-views-relevent_product-block_1 .views-field-sell-price {float: right;
+    font-weight: bold;
+    width: 57px;}
+#block-views-relevent_product-block_1 .views-field-buyitnowbutton {float: right;
+    font-weight: bold;
+    width: 57px;
+	margin-top:-4px;}
+#block-views-relevent_product-block_1 form input.form-submit {
+    margin: 2px;
+    padding: 0 3px;}
+
+#block-block-1 {padding-right: 10px;
+    width: 210px;}
+	
+
+	
+/*Theme of ajax cart block */
+#block-uc_ajax_cart-0 {width:190px;}
+#ajaxCartUpdate a {color:#818386;}
+
+/*Theme of footer */
+#block-menu-primary-links ul.menu {text-align:center;}
+#block-menu-primary-links li {display:inline;
+padding-left:20px;
+font-size:11px;
+text-align:center;}
+
+.cart-block-summary-links ul.links li {
+    border-left: 0 solid;}
+
+/* Theme the Homepage */
+
+#block-block-3 {background: url("../images/cart.jpg") no-repeat scroll 90% top transparent;
+	border-left: 2px solid #EAE9E9;
+    height: 40px;
+    line-height: 0;
+    margin-top: 10px;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 212px;}
+#block-block-3 a {bottom: 2px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    right: 63px;}
+#block-webformblock-16 {border-left: 2px solid #EAE9E9;
+    margin-right: 43px;
+    margin-top: 40px;
+    min-height: 244px;
+    padding-left: 36px;
+    width: 173px;}
+#block-webformblock-16 .content {background: url("../images/form_box_03.png") no-repeat scroll 0 0 transparent;
+height:131px;}
+#webform-client-form-16 {margin-top:-7px;}
+#block-webformblock-16 .form-item {margin-bottom: 8px;
+    margin-top: 8px;}
+#block-webformblock-16 textarea , #block-webformblock-16 .form-item input, #block-webformblock-16 .form-item select, #block-webformblock-16 #content-region input.form-text {
+    float: none;
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 4px;
+    max-width: 95%;
+    width: 113px;}
+#block-webformblock-16 .form-item label {
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 10px;
+    width: 27px;}
+#block-webformblock-16 #webform-component-name , #block-webformblock-16 #webform-component-phone , #block-webformblock-16 #webform-component-email { position:relative;
+top:10px;}
+#block-webformblock-16 form input.form-submit {background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    bottom: -12px;
+    color: #FFFFFF;
+    float: left;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    left: 15px;
+    margin: 0;
+    padding: 0;
+    position: relative;}
+#block-webformblock-16 .field-field-text {display:none;}
+
+
+
+#block-webformblock-16 h2 {background: url("../images/block_title.jpg") no-repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+    font-size: 16px;
+    height: 19px;
+    line-height: 1;
+    text-align: center;
+    width: 173px;}
+#node-16 h2.title { display:none;}
+
+#block-views-homepage_about-block_1 {border-left: 2px solid #EAE9E9;
+    padding-left: 58px;
+    padding-right: 23px;
+    width: 162px;
+	font-weight:bold;
+	min-height: 284px;}
+#block-views-homepage_about-block_1 .view-content {margin-top:-17px;}
+#block-views-homepage_product-block_1 {border-left: 2px solid #EAE9E9;
+    min-height: 284px;
+    padding-left: 41px;
+    padding-right: 23px;
+    width: 162px;}
+#block-views-homepage_product-block_1 .views-field-title {font-size:15px;
+font-weight:bold;} 
+#block-views-homepage_product-block_1 .views-field-field-teaser-value {color:#818285;
+margin-top:13px;}
+
+#block-views-homepage_news-block_1 {padding-right: 23px;
+    width: 123px;}
+#block-views-homepage_news-block_1 h2 {font-size:15px;}
+#block-views-homepage_product-block_1 .views-field-buyitnowbutton  { background: url("../images/addtocart_07.jpg") no-repeat scroll 0 0 transparent;
+width:120px;
+height:20px;
+margin-top:20px;}
+#block-views-homepage_product-block_1 form input.form-submit { background-color: transparent;
+    border: medium none;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 29px;}
+#block-views-homepage_product-block_1 .ajax-submit-form {background:none;}
+
+/* Theme main product page */
+#block-menu_block-1 {width:270px;
+float:right;}
+#block-menu_block-1 ul {margin-right:0;}
+#block-menu_block-1 li.leaf {
+    list-style-type: none;}
+#block-menu_block-1 li {border-bottom: 2px solid #EAE9E9;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 5px;
+    margin-right: 0;
+    width: 230px;}
+
+#block-views-all_products-block_1 {width:350px;
+height:270px;}
+#block-views-all_products-block_1 .views-field-field-image-cache-fid {width: 190px;
+float:right;}
+#block-views-all_products-block_1 .views-field-title {float: none;
+    font-size: 15px;
+    font-weight: bold;}
+#block-views-all_products-block_1 .views-field-field-teaser-value {margin-top:5px;
+color:#777;
+height:119px;}
+#block-views-all_products-block_1 .views-field-buyitnowbutton {margin-top:5px;}
+#block-views-all_products-block_1 .views-field-sell-price {color:#777;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;}
+#block-views-all_products-block_1 .item-list {height: 20px;}
+
+/* Theme of category pages */
+
+#view-id-taxonomy_term_main-page .col-1 {border-left:2px solid #EAE9E9;
+width: 305px;}
+#view-id-taxonomy_term_main-page .col-2 {padding-right:20px;}
+
+#view-id-taxonomy_term_main-page .views-field-title {font-size:18px;
+margin-bottom:11px;
+height: 35px;}
+#view-id-taxonomy_term_main-page .views-field-field-image-cache-fid {
+    float: right;
+    width: 160px;
+	margin-right:0;
+	padding-right:0;
+	margin-left:0;
+	padding-left:15px;
+	height:240px;}
+#view-id-taxonomy_term_main-page .views-field-sell-price {color: #ACACAC;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;}
+#view-id-taxonomy_term_main-page .views-field-view-node {margin-top:20px;
+font-weight:bold;}
+/*	
+#view-id-taxonomy_term_main-page #product_text {
+    float: left;
+    height: 197px;
+    margin: -152px 0 0 57px;
+    overflow: hidden;
+    width: 320px;}
+*/
+#view-id-taxonomy_term_main-page #product_index ,
+#view-id-taxonomy_term_main-page #product_links2 {display:none;}
+
+#block-block-4 , #block-block-5 ,#block-block-6 {font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;}
+.feed-icon {display:none;}
+
+.ajax-submit-form {background: url("../images/cart.png") no-repeat scroll 0 0 transparent;
+	border: medium none;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 11px;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 80px;}
+
+/* 
+ * Blog Theming 
+ ***************************************************/ 
+
+#block-views-more_post-block_1 {width:190px;}
+
+/*Theme of posts */
+
+.post_date {color: #ACACAC;
+    font-weight: bold;}
+	
+
+.fb-social-like-widget {float:left;}
+#node-6 .fb-social-like-widget , #node-1 .fb-social-like-widget {display:none;}
+
+/*Theme of form */
+#webform-client-form-3 .resizable-textarea {width:213px;}
+#node-3 .field-field-image {width:250px;
+float:left;}
+
+/* Footer */
+#footer ul.menu li ul {display:none;}
+#block-menu-primary-links {float:right;
+width:400px;}
+#block-block-2 { margin-top: -12px;
+	font-size:11px;
+	text-align:center;}
+#cart-form-buttons .form-button, #cart-form-buttons .form-submit , #edit-panes-quotes-quote-button , #edit-cancel , #edit-continue , #edit-back , #edit-submit {
+    font-family: arial;
+    font-size: 12px;}
+#footer {margin-top:-5px;}
+#footer a , #footer p {color:#737375;}
+
+.connect_widget_not_connected_text a  {
+    color: #F29C59;}
+.fb-social-like-widget {
+    background: none repeat scroll 0 0 #AFAFAF;}
+#content-content {float:right;}	
+#content-top-inner , #content-top-inner .block .inner {margin:0;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#block-webformblock-16 form input.form-submit {
+    bottom: -12px;
+	left:18px;}
+	#block-views-homepage_product-block_1 form input.form-submit {
+    right: 25px;}
+	#block-views-all_products-block_1 .item-list { position:relative;
+	top:4px;}
+	}	
