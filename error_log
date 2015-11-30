@@ -14413,3 +14413,4 @@ query: INSERT INTO watchdog
 [30-Nov-2015 07:18:15 America/Detroit] PHP Warning:  Unterminated comment starting line 2280 in /home/tiram/public_html/modules/node/node.module on line 2280
 [30-Nov-2015 07:19:07 America/Detroit] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/tiram/public_html/modules/system/system.module on line 1114
 [30-Nov-2015 07:19:12 America/Detroit] PHP Warning:  Unterminated comment starting line 986 in /home/tiram/public_html/modules/taxonomy/taxonomy.module on line 986
+[30-Nov-2015 07:54:23 America/Detroit] PHP Warning:  Unterminated comment starting line 2280 in /home/tiram/public_html/sites/all/modules/cck/content.module on line 2280
